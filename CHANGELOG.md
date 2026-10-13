@@ -1,3 +1,7 @@
+# 7.1.1
+__fixed__
+- Bumped valibot to 1.5.0, clearing GHSA-vqpr-j7v3-hqw9 (ReDoS in `EMOJI_REGEX`) and GHSA-5qjj-4xww-7phc (`record()`/`flatten()` issue paths) reported against 0.38. No API change.
+
 # 6.1.7
 __added__
 - skip ecc library verification via DANGER_DO_NOT_VERIFY_ECCLIB flag

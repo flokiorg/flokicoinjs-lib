@@ -1,6 +1,6 @@
 {
   "name": "flokicoinjs-lib",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "description": "Client-side Flokicoin JavaScript library",
   "type": "module",
   "main": "./src/cjs/index.cjs",
@@ -67,7 +67,7 @@
     "bip174": "^3.0.0-rc.0",
     "bs58check": "^4.0.0",
     "uint8array-tools": "^0.0.9",
-    "valibot": "^0.38.0",
+    "valibot": "^1.5.0",
     "varuint-bitcoin": "^2.0.0"
   },
   "devDependencies": {

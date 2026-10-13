@@ -3,7 +3,7 @@ import BIP32Factory from 'bip32';
 import * as ecc from 'tiny-secp256k1';
 import ECPairFactory from 'ecpair';
 import { describe, it } from 'mocha';
-import * as bitcoin from 'bitcoinjs-lib';
+import * as bitcoin from 'flokicoinjs-lib';
 import { regtestUtils } from './_regtest.js';
 import * as tools from 'uint8array-tools';
 import { randomBytes } from 'crypto';
@@ -182,7 +182,7 @@ describe('bitcoinjs-lib (transactions with psbt)', () => {
       'noredeem',
     );
 
-    const data = Buffer.from('bitcoinjs-lib', 'utf8');
+    const data = Buffer.from('flokicoinjs-lib', 'utf8');
     const embed = bitcoin.payments.embed({ data: [data] });
 
     const psbt = new bitcoin.Psbt({ network: regtest })
